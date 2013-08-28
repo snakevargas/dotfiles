@@ -5,6 +5,7 @@ set laststatus=2
 set nu
 set ruler
 colorscheme darkblue
+hi Normal ctermbg=none
 
 " Dumb spaces for C files because protobuf uses inferior indentation protocol
 autocmd FileType c setlocal sw=2 expandtab
